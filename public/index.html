@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Appopty | Application Delivery Intelligence</title>
+  <meta name="description" content="Appopty reports on application delivery: controllers such as NetScaler and F5, load balancers, remote access gateways, reverse proxies, web application firewalls, cloud application gateways and Kubernetes ingress, with application dependency mapping.">
+  <link rel="canonical" href="https://appopty.com/">
+  <meta name="theme-color" content="#170a0f">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Appopty">
+  <meta property="og:url" content="https://appopty.com/">
+  <meta property="og:title" content="Appopty | Application Delivery Intelligence">
+  <meta property="og:description" content="Appopty reports on application delivery: controllers such as NetScaler and F5, load balancers, remote access gateways, reverse proxies, web application firewalls, cloud application gateways and Kubernetes ingress, with application dependency mapping.">
+  <meta property="og:locale" content="en_AU">
+  <meta property="og:image" content="https://appopty.com/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Illustrative Appopty application delivery report pages for the fictional Riverside Technology Group">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="/img/appopty-mark.svg" type="image/svg+xml">
+  <link rel="icon" href="/img/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="/img/favicon-48.png" type="image/png" sizes="48x48">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+
+  <link rel="preload" href="/fonts/poppins-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/inter-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/site.css">
+  <link rel="preload" as="image" href="/img/hero/cover-640.webp" type="image/webp">
+
+  <script src="/js/site.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Appopty home">
+        <img src="/img/appopty-mark.svg" alt="" width="42" height="42">
+        <span>Appopty</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="visually-hidden">Menu</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="#services">Scope</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#sample-reports">Report Previews</a></li>
+          <li><a href="#pricing">Engagement</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a class="btn btn-primary btn-sm" href="#enquire">Discuss your applications</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Application delivery intelligence</p>
+          <h1 id="hero-title">Know what sits in front <span class="accent">of every application.</span></h1>
+          <p class="hero-lede">Reports on your application delivery controllers, such as NetScaler and F5. Each application is traced from its address through policies, certificates and pools to the servers behind it.</p>
+          <p class="hero-proof"><strong>One report across the delivery path:</strong> controllers, load balancers, remote access gateways, reverse proxies, web application firewalls, cloud application gateways and Kubernetes ingress.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#enquire">Discuss your applications
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="#sample-reports" class="btn btn-secondary">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg>
+              Explore report previews
+            </a>
+          </div>
+        </div>
+
+        <div class="report-stack" role="group" aria-label="Illustrative pages from an Appopty application delivery report for a fictional organisation">
+          <button class="page page-3" type="button" aria-label="Enlarge report page: application sheet" data-lightbox="hero" data-full="/img/hero/page3-full.webp" data-title="Application sheet: Staff Portal" data-caption="Illustrative application sheet: the delivery path, servers and dependencies of one application.">
+            <img src="/img/hero/page3-480.webp" alt="Report page for one application, showing its delivery path, servers and dependencies" width="480" height="679" decoding="async">
+          </button>
+          <button class="page page-2" type="button" aria-label="Enlarge report page: delivery estate at a glance" data-lightbox="hero" data-full="/img/hero/page2-full.webp" data-title="Delivery estate at a glance" data-caption="Illustrative overview page: what delivers the applications, findings by area, and audit evidence and coverage.">
+            <img src="/img/hero/page2-480.webp" alt="Report page summarising the controllers and gateways in scope, findings by area and the evidence collected" width="480" height="679" decoding="async">
+          </button>
+          <button class="page page-1" type="button" aria-label="Enlarge report cover" data-lightbox="hero" data-full="/img/hero/cover-full.webp" data-title="Application Delivery Report: Riverside Technology Group" data-caption="Illustrative report cover for Riverside Technology Group (fictional organisation, synthetic data).">
+            <img src="/img/hero/cover-640.webp" srcset="/img/hero/cover-640.webp 640w, /img/hero/cover-1200.webp 1200w" sizes="(max-width: 880px) 62vw, 340px" alt="Cover of an illustrative Appopty Application Delivery Report for the fictional Riverside Technology Group" width="640" height="905" fetchpriority="high">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Report previews -->
+    <section class="section band-light" id="sample-reports" aria-labelledby="output-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Report previews</p>
+          <h2 id="output-title">Explore the application delivery report previews.</h2>
+          <p>One page from each section, laid out for a fictional organisation with two controller pairs, cloud application gateways and a Kubernetes cluster.</p>
+        </div>
+
+        <div class="gallery" data-gallery>
+          <div class="gallery-row-3">
+            <figure class="shot-card">
+              <h3>Controllers and load balancing</h3>
+              <button class="shot-frame" type="button" data-lightbox="gallery" data-full="/img/gallery/controllers-full.webp" data-title="Controllers and load balancing" data-caption="Section 2: virtual servers and pools">
+                <img src="/img/gallery/controllers-800.webp" srcset="/img/gallery/controllers-800.webp 800w, /img/gallery/controllers-1400.webp 1400w" sizes="(max-width: 640px) calc(100vw - 32px), (max-width: 1080px) 46vw, 390px" alt="Illustrative Appopty report page, controllers and load balancing, for the fictional Riverside Technology Group" width="800" height="533" loading="lazy" decoding="async">
+                <span class="fig-caption">Section 2: virtual servers and pools</span>
+                <span class="zoom-hint" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>Enlarge</span>
+              </button>
+              <figcaption>Every virtual server with its address, load balancing method, pool and how many servers are up.</figcaption>
+            </figure>
+            <figure class="shot-card">
+              <h3>Certificates and TLS</h3>
+              <button class="shot-frame" type="button" data-lightbox="gallery" data-full="/img/gallery/certificates-full.webp" data-title="Certificates and TLS" data-caption="Section 3: certificate expiry and TLS settings">
+                <img src="/img/gallery/certificates-800.webp" srcset="/img/gallery/certificates-800.webp 800w, /img/gallery/certificates-1400.webp 1400w" sizes="(max-width: 640px) calc(100vw - 32px), (max-width: 1080px) 46vw, 390px" alt="Illustrative Appopty report page, certificates and tls, for the fictional Riverside Technology Group" width="800" height="533" loading="lazy" decoding="async">
+                <span class="fig-caption">Section 3: certificate expiry and TLS settings</span>
+                <span class="zoom-hint" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>Enlarge</span>
+              </button>
+              <figcaption>Certificates in order of expiry, where each one is bound and which virtual servers still accept old protocols.</figcaption>
+            </figure>
+            <figure class="shot-card">
+              <h3>Remote access gateways</h3>
+              <button class="shot-frame" type="button" data-lightbox="gallery" data-full="/img/gallery/gateways-full.webp" data-title="Remote access gateways" data-caption="Section 4: gateways, sign-in and sessions">
+                <img src="/img/gallery/gateways-800.webp" srcset="/img/gallery/gateways-800.webp 800w, /img/gallery/gateways-1400.webp 1400w" sizes="(max-width: 640px) calc(100vw - 32px), (max-width: 1080px) 46vw, 390px" alt="Illustrative Appopty report page, remote access gateways, for the fictional Riverside Technology Group" width="800" height="533" loading="lazy" decoding="async">
+                <span class="fig-caption">Section 4: gateways, sign-in and sessions</span>
+                <span class="zoom-hint" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>Enlarge</span>
+              </button>
+              <figcaption>Each gateway with its sign-in factors, session timeout and published resources.</figcaption>
+            </figure>
+          </div>
+          <div class="gallery-row-3">
+            <figure class="shot-card">
+              <h3>Web application firewall</h3>
+              <button class="shot-frame" type="button" data-lightbox="gallery" data-full="/img/gallery/waf-full.webp" data-title="Web application firewall" data-caption="Section 5: coverage by application">
+                <img src="/img/gallery/waf-800.webp" srcset="/img/gallery/waf-800.webp 800w, /img/gallery/waf-1400.webp 1400w" sizes="(max-width: 640px) calc(100vw - 32px), (max-width: 1080px) 46vw, 390px" alt="Illustrative Appopty report page, web application firewall, for the fictional Riverside Technology Group" width="800" height="533" loading="lazy" decoding="async">
+                <span class="fig-caption">Section 5: coverage by application</span>
+                <span class="zoom-hint" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>Enlarge</span>
+              </button>
+              <figcaption>Which internet-facing applications have a profile, whether it blocks or only logs, and which have none.</figcaption>
+            </figure>
+            <figure class="shot-card">
+              <h3>Cloud gateways and Kubernetes ingress</h3>
+              <button class="shot-frame" type="button" data-lightbox="gallery" data-full="/img/gallery/cloud-full.webp" data-title="Cloud gateways and Kubernetes ingress" data-caption="Section 6: listeners, ingress hosts and back ends">
+                <img src="/img/gallery/cloud-800.webp" srcset="/img/gallery/cloud-800.webp 800w, /img/gallery/cloud-1400.webp 1400w" sizes="(max-width: 640px) calc(100vw - 32px), (max-width: 1080px) 46vw, 390px" alt="Illustrative Appopty report page, cloud gateways and kubernetes ingress, for the fictional Riverside Technology Group" width="800" height="533" loading="lazy" decoding="async">
+                <span class="fig-caption">Section 6: listeners, ingress hosts and back ends</span>
+                <span class="zoom-hint" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>Enlarge</span>
+              </button>
+              <figcaption>Cloud application gateway listeners and Kubernetes ingress hosts, with the services behind them.</figcaption>
+            </figure>
+            <figure class="shot-card">
+              <h3>Application dependency mapping</h3>
+              <button class="shot-frame" type="button" data-lightbox="gallery" data-full="/img/gallery/dependencies-full.webp" data-title="Application dependency mapping" data-caption="Section 7: dependency map for one application">
+                <img src="/img/gallery/dependencies-800.webp" srcset="/img/gallery/dependencies-800.webp 800w, /img/gallery/dependencies-1400.webp 1400w" sizes="(max-width: 640px) calc(100vw - 32px), (max-width: 1080px) 46vw, 390px" alt="Illustrative Appopty report page, application dependency mapping, for the fictional Riverside Technology Group" width="800" height="533" loading="lazy" decoding="async">
+                <span class="fig-caption">Section 7: dependency map for one application</span>
+                <span class="zoom-hint" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>Enlarge</span>
+              </button>
+              <figcaption>One application traced from its name to its servers and database, with what it shares with other applications.</figcaption>
+            </figure>
+          </div>
+        </div>
+        <p class="sample-note">Illustrative layouts for the fictional Riverside Technology Group, using synthetic data. Reporting capabilities are in development.</p>
+      </div>
+    </section>
+
+    <!-- Scope -->
+    <section class="features" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-head services-head">
+          <p class="eyebrow">What we report on</p>
+          <h2 id="services-title">Everything between the user and the server.</h2>
+          <p>Choose the areas you run. Each section records its scope, its collection date and any gaps in the evidence.</p>
+        </div>
+        <ul class="benefits insights report-cards">
+          <li class="benefit">
+            <div class="icon-box" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="12" r="2.5"/><circle cx="19" cy="5" r="2.5"/><circle cx="19" cy="12" r="2.5"/><circle cx="19" cy="19" r="2.5"/><path d="M7.5 12h9M7 10.5l9.5-4.5M7 13.5l9.5 4.5"/></svg></div>
+            <h3>Application delivery controllers</h3>
+            <p>Controllers such as NetScaler and F5: virtual servers, policies, pools and the servers behind them.</p>
+          </li>
+          <li class="benefit">
+            <div class="icon-box" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v6M12 9l-7 6M12 9l7 6M12 9v6"/><rect x="2.5" y="15" width="5" height="5" rx="1"/><rect x="9.5" y="15" width="5" height="5" rx="1"/><rect x="16.5" y="15" width="5" height="5" rx="1"/></svg></div>
+            <h3>Load balancers</h3>
+            <p>Load balancing methods, persistence, health checks and how many servers are up in each pool.</p>
+          </li>
+          <li class="benefit">
+            <div class="icon-box" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="10.5" width="15" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3M12 14.5v2.5"/></svg></div>
+            <h3>Remote access gateways</h3>
+            <p>Gateways, sign-in factors, session settings and the resources each gateway publishes.</p>
+          </li>
+          <li class="benefit">
+            <div class="icon-box" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h13M12 4l4 4-4 4M21 16H8M12 12l-4 4 4 4"/></svg></div>
+            <h3>Reverse proxies</h3>
+            <p>Which names and paths are published, where each one is forwarded and what is rewritten on the way.</p>
+          </li>
+          <li class="benefit">
+            <div class="icon-box" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4.5 6v6c0 4.4 3.1 7.6 7.5 9 4.4-1.4 7.5-4.6 7.5-9V6z"/><path d="M8.5 10.5h7M8.5 14h7M12 10.5V14"/></svg></div>
+            <h3>Web application firewalls</h3>
+            <p>Which applications have a profile, whether it blocks or only logs, and which have none.</p>
+          </li>
+          <li class="benefit">
+            <div class="icon-box" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18.5a4.5 4.5 0 0 1-.6-8.96A6 6 0 0 1 17.9 10.84 3.9 3.9 0 0 1 17.5 18.5z"/></svg></div>
+            <h3>Cloud application gateways</h3>
+            <p>Listeners, routing rules, back-end pools and firewall settings on gateways in your cloud accounts.</p>
+          </li>
+          <li class="benefit">
+            <div class="icon-box" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z"/><circle cx="12" cy="12" r="3"/></svg></div>
+            <h3>Kubernetes ingress controllers</h3>
+            <p>Ingress hosts and paths, the services behind them and whether each is published with TLS.</p>
+          </li>
+          <li class="benefit">
+            <div class="icon-box" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="6" r="2.5"/><circle cx="19" cy="6" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M7.5 6h9M6.3 8.2l4.5 7.6M17.7 8.2l-4.5 7.6"/></svg></div>
+            <h3>Application dependency mapping</h3>
+            <p>Each application traced from its name to its servers, with the components it shares with others.</p>
+          </li>
+          <li class="benefit">
+            <div class="icon-box" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><circle cx="11.5" cy="14" r="2.5"/><path d="m13.4 15.9 2.1 2.1"/></svg></div>
+            <h3>Audit evidence and coverage</h3>
+            <p>Included with every report: the scope read on each platform, the date it was collected and anything that could not be read.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="section" id="how-it-works" aria-labelledby="how-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">How it works</p>
+          <h2 id="how-title">From controller configuration to application reports.</h2>
+          <p>Three steps take you from agreed scope to a report for every application.</p>
+        </div>
+        <ol class="steps" role="list">
+          <li class="step">
+            <span class="step-number" aria-hidden="true">1</span>
+            <h3>Connect</h3>
+            <p>Agree the controllers, gateways and clusters in scope, then grant read-only access to each one.</p>
+          </li>
+          <li class="step">
+            <span class="step-number" aria-hidden="true">2</span>
+            <h3>Trace</h3>
+            <p>Follow each application from its address to its servers. Note the scope, collection date and evidence gaps.</p>
+          </li>
+          <li class="step">
+            <span class="step-number" aria-hidden="true">3</span>
+            <h3>Review and refresh</h3>
+            <p>Give engineers the findings in priority order. Repeat the collection to show what changed.</p>
+          </li>
+        </ol>
+
+        <section class="architecture" id="evidence-needed" aria-labelledby="evidence-title">
+          <h3 id="evidence-title">What access we need</h3>
+          <p class="sample-note">Read-only access to each platform in scope. Nothing is created, changed or deleted.</p>
+          <ul class="prerequisite-list">
+            <li class="feature"><h4>Application delivery controllers</h4><p>A read-only account on each controller in scope, such as NetScaler and F5.</p></li>
+            <li class="feature"><h4>Cloud application gateways</h4><p>A read-only role on each cloud account in scope.</p></li>
+            <li class="feature"><h4>Kubernetes</h4><p>Read-only access to the ingress resources in each cluster in scope.</p></li>
+            <li class="feature"><h4>An application list, if you have one</h4><p>Names and owners, so the reports use the names your teams know.</p></li>
+          </ul>
+        </section>
+      </div>
+    </section>
+
+    <!-- Findings showcase -->
+    <section class="section tight-top" id="findings" aria-labelledby="findings-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Findings and evidence</p>
+          <h2 id="findings-title">More than configuration. Findings for each application.</h2>
+          <p>Each finding names the application it affects, the evidence it rests on and the next step.</p>
+        </div>
+        <figure class="finding-example" aria-labelledby="finding-example-title">
+          <figcaption id="finding-example-title">An illustrative finding from the certificates and TLS section</figcaption>
+          <div class="finding-card finding-high">
+            <p class="finding-head"><span class="sev-badge sev-high">High</span><span class="finding-id">F-TLS-3D9A61</span><span class="finding-confidence">Certificates and TLS · Expiry</span></p>
+            <h3>A certificate on an internet-facing application expires in 21 days</h3>
+            <dl>
+              <div><dt>Affected</dt><dd>Staff Portal, published by vs-portal-443 on ns-hq-01</dd></div>
+              <div><dt>Evidence</dt><dd>The certificate bindings read from the controller, linked from the evidence register</dd></div>
+              <div><dt>Recommended action</dt><dd>Renew the certificate and bind the new one before it expires.</dd></div>
+            </dl>
+          </div>
+        </figure>
+        <ul class="benefits insights">
+          <li class="benefit">
+            <div class="icon-box" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h10M4 12h7M4 18h4"/><path d="m15 15 3 3 3-3M18 8v10"/></svg></div>
+            <h3>For engineers: a prioritised list</h3>
+            <p>Findings in priority order, each traced to the virtual server, policy or certificate it comes from.</p>
+          </li>
+          <li class="benefit">
+            <div class="icon-box" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg></div>
+            <h3>For application owners: one sheet each</h3>
+            <p>A page per application: how it is published, what it runs on and what it depends on.</p>
+          </li>
+          <li class="benefit">
+            <div class="icon-box" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12a8 8 0 0 1-14.3 4.9M4 12a8 8 0 0 1 14.3-4.9"/><path d="M18.5 3v4.2h-4.2M5.5 21v-4.2h4.2"/></svg></div>
+            <h3>Between refreshes: what changed</h3>
+            <p>Repeat the collection to show what was added, removed or reconfigured since the last report.</p>
+          </li>
+        </ul>
+        <p class="insight-note">The finding above is illustrative and uses the fictional Riverside Technology Group estate. Findings are based on what was read from each platform at the time of collection, and should be reviewed by your engineers before any change is made.</p>
+      </div>
+    </section>
+
+    <!-- Engagement -->
+    <section class="section tight-top" id="pricing" aria-labelledby="pricing-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Engagement &amp; scoping</p>
+          <h2 id="pricing-title">Scope your reports.</h2>
+          <p>Start with the platforms that deliver your applications and what you need the reports for.</p>
+        </div>
+        <ul class="engagement">
+          <li>
+            <p class="tag">Scoping</p>
+            <h3>What we agree first</h3>
+            <ul>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>The controllers, gateways and clusters in scope</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>The read-only access for each platform</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>Which sections you need</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>Whether you have an application list to work from</li>
+            </ul>
+          </li>
+          <li>
+            <p class="tag">Refreshes</p>
+            <h3>Reports on a schedule</h3>
+            <ul>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>Whether to schedule refreshes, and how often</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>A new collection date with each refresh</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>Changes since the last report</li>
+            </ul>
+          </li>
+        </ul>
+        <div class="engagement-foot">
+          <p>Agree which platforms are in scope, how access is granted and whether to schedule refreshes.</p>
+          <a class="btn btn-primary" href="#enquire">Discuss your applications
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tight-top vendor-support" aria-labelledby="vendors-title">
+      <div class="container">
+        <h2 id="vendors-title">Application delivery controllers</h2>
+        <ul class="vendor-grid" role="list">
+          <li><img src="/img/vendors/netscaler.svg" alt="NetScaler" loading="lazy" decoding="async"></li>
+          <li><img src="/img/vendors/f5.svg" alt="F5" loading="lazy" decoding="async"></li>
+        </ul>
+        <p class="vendor-note">Tell us which controllers, gateways and ingress controllers you run and we will confirm what each section can cover.</p>
+      </div>
+    </section>
+
+    <!-- Questions -->
+    <section class="section tight-top" id="questions" aria-labelledby="questions-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="questions-title">Questions about Appopty</h2>
+        </div>
+        <div class="faq-list">
+          <details class="feature"><summary>What does Appopty report on?</summary><p>Application delivery controllers, load balancers, remote access gateways, reverse proxies, web application firewalls, cloud application gateways and Kubernetes ingress controllers, with application dependency mapping across them.</p></details>
+          <details class="feature"><summary>Which platforms are covered?</summary><p>Application delivery controllers such as NetScaler and F5. Tell us what you run and we will confirm what each section can cover.</p></details>
+          <details class="feature"><summary>What access is needed?</summary><p>Read-only access to each platform in scope. <a href="#evidence-needed">See what access we need.</a></p></details>
+          <details class="feature"><summary>Does collection change anything?</summary><p>No. Collection reads configuration and state through read-only access. It does not create, change or delete anything.</p></details>
+          <details class="feature"><summary>Are the reports available now?</summary><p>Reporting capabilities are in development. The <a href="#sample-reports">report previews</a> on this page are illustrative layouts that use synthetic data for a fictional organisation.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Related products -->
+    <section class="section tight-top" id="related" aria-labelledby="related-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Related products</p>
+          <h2 id="related-title">Three related products.</h2>
+          <p>Netopty, Secopty and Sysopty take the same evidence-based approach to networks, network security and cloud and virtual infrastructure.</p>
+        </div>
+        <ul class="engagement related three">
+          <li>
+            <p class="tag">Network documentation</p>
+            <h3><img src="/img/netopty-mark.svg" alt="" width="30" height="30" loading="lazy" decoding="async">Netopty</h3>
+            <p>Network discovery and as-built documentation: reports, topology diagrams and device inventories, generated from evidence collected from your devices.</p>
+            <a class="related-link" href="https://www.netopty.com/" rel="noopener">Visit netopty.com <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </li>
+          <li>
+            <p class="tag">In development</p>
+            <h3><img src="/img/secopty-mark.svg" alt="" width="30" height="30" loading="lazy" decoding="async">Secopty</h3>
+            <p>Network security and compliance reporting: vulnerabilities, firewall policy, device hardening, segmentation and vendor support, each finding with its evidence.</p>
+            <a class="related-link" href="https://www.secopty.com/" rel="noopener">Visit secopty.com <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </li>
+          <li>
+            <p class="tag">In development</p>
+            <h3><img src="/img/sysopty-mark.svg" alt="" width="30" height="30" loading="lazy" decoding="async">Sysopty</h3>
+            <p>Cloud and virtual infrastructure documentation for Microsoft Azure, Amazon AWS, Google Cloud Platform, VMware NSX, and VMware ESXi and vCenter.</p>
+            <a class="related-link" href="https://sysopty.com/" rel="noopener">Visit sysopty.com <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="section tight" id="enquire" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta-band">
+          <svg class="cta-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M28 5H13a4 4 0 0 0-4 4v30a4 4 0 0 0 4 4h22a4 4 0 0 0 4-4V16z"/><path d="M28 5v11h11M17 25h14M17 31h14M17 37h9"/></svg>
+          <div class="cta-copy">
+            <h2 id="cta-title">Discuss your application delivery.</h2>
+            <p>Tell us which controllers, gateways and clusters deliver your applications.</p>
+          </div>
+          <div class="enquiry-actions">
+            <a id="enquiry-address" class="btn btn-primary" href="mailto:enquiries@appopty.com?subject=Appopty%20enquiry">enquiries@appopty.com</a>
+            <button class="btn btn-secondary" type="button" data-copy-email hidden>Copy email address</button>
+            <p class="sample-note" role="status" data-copy-status></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title" class="contact-title">Tell us what delivers your applications.</h2>
+          <p>Share the platforms you run and what you need the reports for.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>Request an assessment or a service proposal</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>Ask about report previews for your evaluation team</li>
+          </ul>
+        </div>
+
+        <form class="enquiry-form" id="enquiry-form" action="/api/enquiry" method="post" novalidate>
+          <div class="field">
+            <label for="f-name">Name <span class="req" aria-hidden="true">*</span></label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required maxlength="100" aria-describedby="f-name-err">
+            <p class="field-error" id="f-name-err"></p>
+          </div>
+          <div class="field">
+            <label for="f-company">Organisation <span class="req" aria-hidden="true">*</span></label>
+            <input id="f-company" name="company" type="text" autocomplete="organization" required maxlength="150" aria-describedby="f-company-err">
+            <p class="field-error" id="f-company-err"></p>
+          </div>
+          <div class="field full">
+            <label for="f-email">Business email <span class="req" aria-hidden="true">*</span></label>
+            <input id="f-email" name="email" type="email" autocomplete="email" required maxlength="254" aria-describedby="f-email-err">
+            <p class="field-error" id="f-email-err"></p>
+          </div>
+          <div class="field full">
+            <label for="f-type">Enquiry type <span class="req" aria-hidden="true">*</span></label>
+            <select id="f-type" name="enquiry_type" required aria-describedby="f-type-err">
+              <option value="assessment">Request a Network Assessment</option>
+              <option value="proposal">Request a Service Proposal</option>
+              <option value="samples">Request Report Previews</option>
+              <option value="general">General Enquiry</option>
+            </select>
+            <p class="field-error" id="f-type-err"></p>
+          </div>
+          <div class="field">
+            <label for="f-sites">Number of sites <span class="hint">(optional)</span></label>
+            <input id="f-sites" name="sites" type="text" inputmode="numeric" maxlength="40" aria-describedby="f-sites-err">
+            <p class="field-error" id="f-sites-err"></p>
+          </div>
+          <div class="field">
+            <label for="f-devices">Approximate number of devices <span class="hint">(optional)</span></label>
+            <input id="f-devices" name="devices" type="text" inputmode="numeric" maxlength="40" aria-describedby="f-devices-err">
+            <p class="field-error" id="f-devices-err"></p>
+          </div>
+          <div class="field full">
+            <label for="f-message">Message <span class="req" aria-hidden="true">*</span></label>
+            <textarea id="f-message" name="message" required minlength="10" maxlength="5000" aria-describedby="f-message-err"></textarea>
+            <p class="field-error" id="f-message-err"></p>
+          </div>
+          <div class="hp-field" aria-hidden="true">
+            <label for="f-hp">Leave this field empty</label>
+            <input id="f-hp" name="hp_extra" type="text" tabindex="-1" autocomplete="off">
+          </div>
+          <input type="hidden" name="form_token" value="">
+          <div class="form-status" role="status" aria-live="polite" tabindex="-1"></div>
+          <div class="form-foot">
+            <small>Fields marked * are required. Your details are sent to the Appopty team by email and used only to respond to this enquiry.</small>
+            <button class="btn btn-primary" type="submit">Send enquiry</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#top" aria-label="Appopty, back to top">
+        <img src="/img/appopty-mark.svg" alt="" width="30" height="30" loading="lazy">
+        <span>Appopty</span>
+      </a>
+      <ul class="footer-links">
+        <li><a href="#services">Scope</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#sample-reports">Report Previews</a></li>
+        <li><a href="#pricing">Engagement</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <p>© <span data-year>2026</span> Appopty. All rights reserved.</p>
+      <p class="footer-legal">Vendor and platform names and logos are trademarks of their respective owners. <a href="/THIRD_PARTY_NOTICES.txt">Third-party notices</a></p>
+    </div>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-labelledby="lb-title">
+    <div class="lb-bar">
+      <h2 class="lb-title" id="lb-title"></h2>
+      <div class="lb-tools">
+        <button class="lb-btn" type="button" data-lb="out" aria-label="Zoom out"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6"/></svg></button>
+        <button class="lb-btn" type="button" data-lb="in" aria-label="Zoom in"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg></button>
+        <button class="lb-btn text" type="button" data-lb="fit">Fit</button>
+        <button class="lb-btn text" type="button" data-lb="actual">100%</button>
+        <button class="lb-btn" type="button" data-lb="close" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      </div>
+    </div>
+    <div class="lb-viewport">
+      <button class="lb-btn lb-nav prev" type="button" data-lb="prev" aria-label="Previous image"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg></button>
+      <img alt="">
+      <button class="lb-btn lb-nav next" type="button" data-lb="next" aria-label="Next image"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button>
+    </div>
+    <p class="lb-caption"></p>
+  </dialog>
+</body>
+</html>
